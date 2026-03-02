@@ -21,7 +21,7 @@ public class Parcial1 {
      if (retiro > 200000); {
      retiro = retiro + 2000;
      }
-     
+
      if (retiro <= saldoInical); {
         nuevoSaldo = saldoInical - retiro;
         System.out.println("su saldo actual es nuevo saldo");
@@ -31,5 +31,6 @@ public class Parcial1 {
         System.out.println("su clave no es correta... intenta nuevamente");
      }
      sc.close();
+    
     }
 }
