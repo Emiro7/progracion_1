@@ -13,14 +13,14 @@ public class Parcial1 {
 
     System.out.println("leer claveUsuario");
 
-     if (clave == claveUsuario); {
+     if (clave == claveUsuario) {
     System.out.println("bienvenido al cajero de uniajc");
     System.out.println("digite la cangtida a retirar");
      retiro = sc.nextInt();
      }
-     if (retiro > 200000); {
+     if (retiro > 200000) {
      retiro = retiro + 2000;
-     }
+     }else 
 
      if (retiro <= saldoInical); {
         nuevoSaldo = saldoInical - retiro;
