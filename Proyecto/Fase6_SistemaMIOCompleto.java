@@ -21,7 +21,6 @@ public class Fase6_SistemaMIOCompleto {
 
             switch (opcion) {
 
-
                 case 1:
                     // Toda la logica de Fase 1
 
@@ -59,7 +58,6 @@ public class Fase6_SistemaMIOCompleto {
                     double totalPagar = tarifaBase - descuento;
                     System.out.println("TOTAL A PAGAR: " + totalPagar);
                     break;
-
 
                 case 2:
                     // Toda la logica de Fase 2
@@ -109,8 +107,8 @@ public class Fase6_SistemaMIOCompleto {
                                 estado = "AFORO MAXIMO";
                             } else if (porcentaje >= 60) {
                                 estado = "BUS LLENO";
-                            } else {
-                                estado = "NORMAL";
+                            }      else {
+                                     estado = "NORMAL";
                             }
 
                             System.out.println("Estado: " + estado);
@@ -127,8 +125,6 @@ public class Fase6_SistemaMIOCompleto {
                     System.out.println("Pasajeros finales: " + pasajerosActuales);
                     break;
 
-
-                
                 case 3:
                     // Toda la logica de Fase 4
                     // Inmediante despues, toda la de la fase 5
@@ -144,9 +140,12 @@ public class Fase6_SistemaMIOCompleto {
                     for (int ruta = 1; ruta <= 3; ruta++) {
 
                         String nombreRuta;
-                        if (ruta == 1) nombreRuta = "T31";
-                        else if (ruta == 2) nombreRuta = "A10";
-                        else nombreRuta = "P22A";
+                        if (ruta == 1)
+                            nombreRuta = "T31";
+                        else if (ruta == 2)
+                            nombreRuta = "A10";
+                             else
+                                nombreRuta = "P22A";
 
                         System.out.println("\n--- Ruta " + nombreRuta + " ---");
 
@@ -182,7 +181,6 @@ public class Fase6_SistemaMIOCompleto {
                             rutaMayorRecaudo = nombreRuta;
                         }
 
-                        
                         System.out.print("Retraso (min): ");
                         int retraso = sc.nextInt();
 
@@ -211,7 +209,6 @@ public class Fase6_SistemaMIOCompleto {
 
                     System.out.println("Rutas con alerta: " + rutasConAlerta);
                     break;
-
 
                 case 0:
                     System.out.println("Cerrando sistema...");
