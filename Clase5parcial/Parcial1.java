@@ -1,9 +1,9 @@
-package Clase5parcial;
+,,package Clase5parcial;
 
 import java.util.Scanner;
 
 public class Parcial1 {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int clave = 1234;
@@ -20,14 +20,18 @@ public class Parcial1 {
      }
      if (retiro > 200000) {
      retiro = retiro + 2000;
-     }else 
+     }else {
+      
+     }
 
      if (retiro <= saldoInical); {
         nuevoSaldo = saldoInical - retiro;
         System.out.println("su saldo actual es nuevo saldo");
-     }else{
+     } else {
+      
+   
         System.out.println("el valor solicitado + el costo de la transaccion es mayor al saldo");
-     }else{
+     } else {
         System.out.println("su clave no es correta... intenta nuevamente");
      }
      sc.close();
